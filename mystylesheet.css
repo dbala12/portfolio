@@ -1,0 +1,42 @@
+/*Myresumestyle*/
+.navbar-brand{
+    font-family: 'Montserrat', arial, sans-serif;
+    color: black;
+}
+body{
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 1em;
+    color: black;
+    font-weight:400;
+}
+
+#content{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.banner{
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    width:100%;
+    min-width:100px;
+}
+
+#about{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px; /* Add padding to the left */
+    padding-right: 50px; /* Add padding to the right */
+    font-size: 2em;
+    font-family: 'Montserrat', arial, sans-serif;
+    text-align: center;
+    color: black; 
+    box-sizing: border-box; /* Ensure padding is included in the element's width */
+}
+
+.footer{
+    color: white;
+  }

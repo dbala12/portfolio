@@ -25,17 +25,174 @@ body{
     min-width:100px;
 }
 
-#about{
+#about {
     padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 50px; /* Add padding to the left */
-    padding-right: 50px; /* Add padding to the right */
-    font-size: 2em;
-    font-family: 'Montserrat', arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
-    color: black; 
-    box-sizing: border-box; /* Ensure padding is included in the element's width */
+    color: black;
+    box-sizing: border-box;
+  }
+  
+  .about-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem; /* Slightly smaller than before */
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  .about-content {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem; /* Smaller than 2em */
+    text-align: center;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+#resume {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 12px;
+  color: #000;
 }
+
+/* Banner at the top */
+#resume .resume-banner {
+  background-color: #1B331B;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+#resume .resume-banner h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+/* Resume Content */
+.resume-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.resume-section h4 {
+  font-weight: 600;
+}
+
+.resume-item h5 {
+  margin-bottom: 5px;
+}
+
+.resume-date {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.resume-item ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.resume-skills {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resume-skills li {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  background-color: #e9ecef;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+.section-banner {
+    background-color: #1B331B;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  .section-banner-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+  }  
+
+/* Clips Section */
+.clips-section {
+    background-color: #ffffff;
+    padding: 60px 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading Banner */
+  .clips-header {
+    background-color: #1B331B;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .clips-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  /* Grid Layout */
+  .clips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Clip Cards */
+  .clip-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .clip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clip-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  /* Clip Content */
+  .clip-content h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .clip-content p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }  
 
 .footer{
     color: white;
